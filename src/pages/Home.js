@@ -1,5 +1,6 @@
 import React from 'react'
 import MentorCard from '../components/MentorCard'
+import Footer from '../parts/Footer'
 import FirstSection from '../parts/home/FirstSection'
 import KenalanMentor from '../parts/home/KenalanMentor'
 import SecondSection from '../parts/home/SecondSection'
@@ -16,6 +17,7 @@ export default function Home() {
         <ThirdSection />
         <KenalanMentor />
     </div>
+        <Footer />
     </>
   )
 }
