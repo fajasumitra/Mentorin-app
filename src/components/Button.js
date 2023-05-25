@@ -23,7 +23,7 @@ Button.propTypes = {
 
 export default function Button(props) {
     const className = [props.className]
-    if (props.isSmall) className.push('px-7 py-2 rounded-full shadow-lg bg-[#50A4FE] text-white')
+    if (props.isSmall) className.push('px-7 py-2 rounded-full shadow-lg bg-[#50A4FE] text-white hover:bg-blue-500')
     if (props.isKategori) className.push('px-7 py-1 rounded-full')
     if (props.isActive) className.push('bg-[#50A4FE] text-white')
     if (!props.isActive && props.isKategori)className.push('bg-[#EBEBEB]  text-gray-500')

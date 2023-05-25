@@ -5,14 +5,16 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Mentor from "./pages/Mentor";
 import UnderConstruction from "./pages/UnderConstruction";
+import MyOrder from "./pages/MyOrder";
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/myorder' element={<MyOrder />} />
           <Route path="/mentor" element={<Mentor />} />
           <Route path="/mentorT/" element={<DetailedMentor />} />
           <Route path="/error" element={<UnderConstruction />} />
