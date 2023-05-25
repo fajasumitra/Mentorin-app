@@ -10,7 +10,7 @@ export default function KenalanMentor() {
                 <p className='text-4xl'>
                     Yuk, Kenalan dengan mentor kami
                 </p>
-                <Button type={"link"} to={"/mentor"} className={'font-bold mt-5'}>Lihat Semua</Button>
+                <Button type={"link"} to={"/mentor"} className={'font-bold mt-5'}>Lihat Semua Mentor </Button>
             </div>
             <div className='flex justify-center gap-8 mt-10'>
                 <MentorCard />
