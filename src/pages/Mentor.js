@@ -42,8 +42,8 @@ export default function Mentor() {
         <div className='text-center mt-20'>
           <p className='text-2xl font-medium'>Temukan Mentormu</p>
           <p className='text-[#696969] text-base'>
-            Temukan mentor yang akan mengubah perjalanan hidup Anda dan membantu
-            Anda mencapai potensi terbaik Anda.
+            Temukan mentor yang akan mengubah perjalanan hidup kamu dan membantu
+            kamu mencapai potensi terbaik kamu.
           </p>
 
           <form action='' className='flex flex-col gap-4'>

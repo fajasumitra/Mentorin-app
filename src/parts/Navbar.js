@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className='mr-20 gap-2 flex font-medium items-center'>
           {/* if not login */}
           {/* <Button type="button" isSmall onClick={""} className='w-fit h-fit'>Daftar</Button>
-            <Button type="button" isSmall onClick={""} className='w-fit h-fit'>Masuk</Button> */}
+          <Button type="button" isSmall onClick={""} className='w-fit h-fit'>Masuk</Button> */}
 
           {/* if login */}
           <Button type={'button'} onClick={toggleDropdown} className=''>
@@ -63,15 +63,8 @@ export default function Navbar() {
           />
 
           {isOpen && (
-            <ul className='absolute right-0 mt-44 mr-20 py-2 w-48 bg-white rounded-md shadow-lg '>
-              <li>
-                <Button
-                  type={'link'}
-                  to='/myorder'
-                  className='w-full text-left px-4 py-2 hover:bg-gray-100'>
-                  My Account
-                </Button>
-              </li>
+            <ul className='absolute right-0 mt-36 mr-20 py-2 w-48 bg-white rounded-md shadow-lg '>
+              
               <li>
                 <Button
                   type={'link'}
